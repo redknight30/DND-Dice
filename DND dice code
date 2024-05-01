@@ -1,0 +1,43 @@
+import random
+print ("choose a dice")
+# loop
+for count in range(100000**900000):
+    print ("D4, D6, D8, D10, D00, D12, D20")
+    dice=input("=")
+    if dice=="n" or dice=="N":
+        break
+    # D4
+    D4=(1, 2, 3, 4)
+    if dice=="D4":
+        roll_0= random.choice(D4)
+        print(roll_0)
+    # D6 
+    D6=(1, 2, 3, 4, 5, 6)
+    if dice=="D6":
+        roll= random.choice(D6)
+        print(roll)
+    # D8
+    D8=(1, 2, 3, 4, 5, 6, 7, 8)
+    if dice=="D8":
+        roll= random.choice(D8)
+        print(roll)
+    # D10
+    D10=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    if dice=="D10":
+        roll= random.choice(D10)
+        print(roll)
+    # D00
+    D00=(00,10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+    if dice=="D00":
+        roll= random.choice(D00)
+        print(roll)
+    # D12
+    D12=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+    if dice=="D12":
+        roll= random.choice(D12)
+        print(roll)
+   # D20
+    D20=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 , 14, 15, 16, 17, 18, 19, 20)
+    if dice=="D20":
+        roll=random.choice(D20)
+        print(roll)

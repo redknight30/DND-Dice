@@ -5,6 +5,7 @@ for count in range(100000**900000):
     print ("D4, D6, D8, D10, D00, D12, D20")
     dice=input("=")
     if dice=="n" or dice=="N":
+        print ("thank you for yousing DND dice have a nice day :)")
         break
     # D4
     D4=(1, 2, 3, 4)
